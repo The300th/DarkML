@@ -17,6 +17,8 @@ To read the data products you can use pandas: `pandas.read_csv(file_path)`. We p
 ## Generate your own catalog
 We have created a function that reads a file containing a list of the most relevant features and predicts the baryon properties. The function reads the save models in the desired `model_path` and the data frame containing all the DM-only properties listed in the file `feature_file`  and predicts the properties for all the targets inside `feature_file`. The predictions is the average of the 10 models considered in the 10K-fold cross-validation.
 
+![alt text](table1.png "important features table") 
+
 ```
 import numpy as np
 import sys

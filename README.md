@@ -6,10 +6,11 @@ Use of Machine Learning for finding a mapping between dark-matter-only simulatio
 * [pandas](https://pandas.pydata.org/)
 
 ## Baryon Catalogs
-We have generated baryon catalogs for the three DM-only simulations listed above. Below, we provide a link to download the link of the catalogs.
-* [MDPL2](https://dauam-my.sharepoint.com/:x:/g/personal/daniel_deandres_uam_es/EcyULkS8XpRKm_INV5dlS1EB_rUOpqOCbeDAg1DXG5-jiA?e=1UiD8y)
-* [UNITSIM2048](https://dauam-my.sharepoint.com/:x:/g/personal/daniel_deandres_uam_es/EbjfLOfjKSBEotpHDyWLQW4BLIpoISDEqMbdhCZZejkJwg?e=wBNlci).
-* [UNITSIM4096](https://dauam-my.sharepoint.com/:x:/g/personal/daniel_deandres_uam_es/EVl9JeU00bRJixIyzChHDjQB234Pw9LEhjg7gGHBu3sTDA?e=6MqCGs)
+We have generated baryon catalogs for the three DM-only simulations listed above. Below, we provide a link to download the link of the catalogs. 
+[Files](http://taurus.ft.uam.es/TRANSFER/The300th/DARKML/)
+* [MDPL2](http://taurus.ft.uam.es/TRANSFER/The300th/DARKML/MDPL2.csv)
+* [UNITSIM2048](http://taurus.ft.uam.es/TRANSFER/The300th/DARKML/UNITSIM2048.csv).
+* [UNITSIM4096](http://taurus.ft.uam.es/TRANSFER/The300th/DARKML/UNITSIM4096.csv)
 
 To read the data products you can use pandas: `pandas.read_csv(file_path)`. We provide the 5 baryonic predicted properties. Note that the logarithmic value is used for the properties. For more information, we refer to the paper [link](in progress)
 
